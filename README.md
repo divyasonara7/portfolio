@@ -7,11 +7,11 @@ A modern, production-ready React portfolio showcasing expertise in React, Vue, S
 - **Modern React 18** with TypeScript
 - **Tailwind CSS** for styling with custom design system
 - **Vite** for lightning-fast development and optimized builds
-- **AI-Powered Chat** using Google Gemini API
 - **Data Visualization** with Recharts for architectural case studies
 - **Fully Responsive** design with dark theme
 - **Production Optimized** with code splitting and minification
 - **Type-Safe** with strict TypeScript configuration
+- **Component Architecture** following React best practices
 
 ## 📦 Tech Stack
 
@@ -21,7 +21,6 @@ A modern, production-ready React portfolio showcasing expertise in React, Vue, S
 - Tailwind CSS 3.4
 - Recharts 2.12
 - Lucide React (icons)
-- Google Generative AI
 
 ## 🛠️ Installation
 
@@ -35,18 +34,6 @@ cd divya-sonara-portfolio
 ```bash
 npm install
 ```
-
-3. **Set up environment variables**
-```bash
-cp .env.example .env.local
-```
-
-4. **Add your Gemini API key** to `.env.local`
-```
-VITE_GEMINI_API_KEY=your_api_key_here
-```
-
-Get your API key from: https://aistudio.google.com/app/apikey
 
 ## 🏃 Development
 
@@ -73,29 +60,34 @@ npm run preview
 
 ```
 ├── src/
-│   ├── components/          # React components
-│   │   ├── Hero.tsx
-│   │   ├── CaseStudy.tsx
-│   │   ├── Projects.tsx
-│   │   ├── Experience.tsx
-│   │   ├── SkillsAndBlogs.tsx
-│   │   └── ChatWidget.tsx
-│   ├── services/            # API services
-│   │   └── geminiService.ts
+│   ├── components/
+│   │   ├── ui/              # Reusable UI primitives
+│   │   │   ├── Badge.tsx
+│   │   │   ├── Button.tsx
+│   │   │   ├── Card.tsx
+│   │   │   └── SectionHeader.tsx
+│   │   ├── layout/          # Layout components
+│   │   │   ├── Header.tsx
+│   │   │   └── Footer.tsx
+│   │   └── sections/        # Page sections
+│   │       ├── Hero.tsx
+│   │       ├── CaseStudy.tsx
+│   │       ├── Projects.tsx
+│   │       ├── Experience.tsx
+│   │       └── SkillsAndBlogs.tsx
 │   ├── constants/           # Data & configuration
 │   │   └── constants.ts
-│   ├── types/              # TypeScript types
+│   ├── types/               # TypeScript types
 │   │   └── types.ts
-│   ├── App.tsx             # Main app component
-│   ├── index.tsx           # Entry point
-│   └── index.css           # Global styles
-├── public/                 # Static assets
-├── index.html             # HTML template
-├── vite.config.ts         # Vite configuration
-├── tailwind.config.js     # Tailwind configuration
-├── tsconfig.json          # TypeScript configuration
-└── package.json           # Dependencies
-
+│   ├── App.tsx              # Main app component
+│   ├── index.tsx            # Entry point
+│   └── index.css            # Global styles
+├── public/                  # Static assets
+├── index.html               # HTML template
+├── vite.config.ts           # Vite configuration
+├── tailwind.config.js       # Tailwind configuration
+├── tsconfig.json            # TypeScript configuration
+└── package.json             # Dependencies
 ```
 
 ## 🎨 Customization
@@ -115,11 +107,12 @@ The design system is configured in:
 - `tailwind.config.js` - Theme customization
 - `src/index.css` - Global styles and custom utilities
 
-## 🤖 AI Chat Feature
+### Component Architecture
 
-The portfolio includes an AI-powered chat widget that can answer questions about your experience. The AI is configured with a system instruction that guides responses based on your resume data.
-
-To customize the AI behavior, edit the `SYSTEM_INSTRUCTION` in `src/constants/constants.ts`.
+The project follows a component-based architecture:
+- **UI Primitives** (`components/ui/`) - Reusable atomic components
+- **Layout** (`components/layout/`) - Header, Footer, Section wrappers
+- **Sections** (`components/sections/`) - Page-level content sections
 
 ## 🚀 Deployment
 
@@ -135,10 +128,6 @@ npm run build
 # Deploy the 'dist' folder
 ```
 
-### Environment Variables in Production
-
-Make sure to add `VITE_GEMINI_API_KEY` to your deployment platform's environment variables.
-
 ## 📄 License
 
 MIT License - feel free to use this template for your own portfolio!
@@ -150,7 +139,7 @@ This is a personal portfolio, but feel free to fork and customize for your own u
 ## 📧 Contact
 
 - Email: divyasonara7105@gmail.com
-- LinkedIn: https://www.linkedin.com/in/divya-sonara
+- LinkedIn: https://www.linkedin.com/in/divya-sonara-81218619a/
 - Location: Milan, Italy
 
 ---
