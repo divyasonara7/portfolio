@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Footer, Hero, CaseStudy, Projects, Experience, SkillsAndBlogs } from '@/components';
+import { Header, Footer, Hero, CaseStudy, Projects, Experience, InnovationLab, SkillsAndBlogs } from '@/components';
 
 /**
  * Main Application Component
@@ -14,6 +14,9 @@ const App: React.FC = () => {
         <Hero />
         <CaseStudy />
         <Projects />
+        <div id="innovation">
+          <InnovationLab />
+        </div>
         <div id="experience">
           <Experience />
         </div>

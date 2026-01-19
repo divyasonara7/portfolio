@@ -9,7 +9,7 @@ import { SectionHeader, Badge } from '@/components/ui';
 const Experience: React.FC = () => {
     return (
         <section className="py-20 px-6 sm:px-12 max-w-5xl mx-auto">
-            <SectionHeader number="02" title="Professional Experience" />
+            <SectionHeader number="04" title="Professional Experience" />
 
             <div className="relative border-l border-slate-800 ml-3 md:ml-6 space-y-12">
                 {EXPERIENCE.map((job) => (
