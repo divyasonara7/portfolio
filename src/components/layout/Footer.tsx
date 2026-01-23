@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Mail, Heart, Code2 } from 'lucide-react';
+import { Github, Linkedin, Mail, Heart } from 'lucide-react';
 import { GITHUB, LINKEDIN, EMAIL } from '@/constants';
 
 /**
@@ -43,7 +43,6 @@ const Footer: React.FC = () => {
                 {/* Tagline */}
                 <p className="text-center text-slate-400 text-sm mb-4">
                     Crafted with <Heart size={14} className="inline text-red-500 mx-1" fill="currentColor" />
-                    using <Code2 size={14} className="inline text-blue-400 mx-1" /> React, TypeScript & Tailwind CSS
                 </p>
 
                 {/* Copyright */}

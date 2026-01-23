@@ -12,19 +12,19 @@ export const PROJECTS: Project[] = [
   {
     title: "CENTX Survey Platform",
     role: "Lead Frontend Architect",
-    description: "Enterprise survey platform handling 100K+ concurrent respondents. Applied Config-Driven UI pattern for dynamic form generation, Container-Presenter separation for testability, and State Machine modeling for complex survey flows.",
+    description: "Enterprise survey platform handling 100K+ concurrent respondents. Built scalable survey builder with drag-drop interface, skip logic branching, and real-time response analytics similar to SurveyMonkey architecture.",
     tech: ["React", "React Query", "TypeScript", "Vite", "Tailwind"],
     features: [
-      "System Design: JSON-driven form engine with 50+ field types using Factory Pattern",
-      "State Management: React Query for server-state with optimistic updates",
-      "Performance: 40% faster LCP through code-splitting, lazy loading & memoization"
+      "Architecture: Compound Component pattern for survey builder with drag-drop reordering",
+      "Logic Engine: Skip logic & branching with visual flow editor for conditional paths",
+      "Performance: 40% faster LCP through code-splitting, lazy loading & virtualized lists"
     ]
   },
   {
     title: "DATAHASH",
-    role: "Lead Frontend Engineer",
+    role: "Sr. Software Engineer",
     description: "Privacy-First Data Activation Platform with 150+ OAuth connectors. Led 'Build vs Buy' analysis resulting in custom schema-based form system. Applied Component Abstraction and Dependency Injection patterns.",
-    tech: ["Vue 3", "TypeScript", "Pinia", "PrimeVue"],
+    tech: ["React", "TypeScript", "React Query", "Tailwind"],
     features: [
       "System Design: Schema-driven form generator with Plugin Architecture",
       "Architecture: Reusable component library with Compound Component pattern",
@@ -63,19 +63,6 @@ export const PROJECTS: Project[] = [
       "Offline-First: IndexedDB caching with service worker sync",
       "Visualization: Force-directed graph for site structure mapping"
     ]
-  },
-  {
-    title: "Portfolio Website",
-    role: "Personal Project",
-    description: "Modern React portfolio demonstrating component-driven architecture, UI primitive patterns, and performance optimization through manual chunk splitting.",
-    tech: ["React 18", "TypeScript", "Vite", "Tailwind CSS", "Recharts"],
-    features: [
-      "Architecture: UI primitives (Badge, Button, Card) with Composition pattern",
-      "Data Viz: Interactive radar chart for architectural decision visualization",
-      "Build: Manual chunk splitting for optimal caching strategy"
-    ],
-    link: "https://github.com/divyasonara7/portfolio",
-    linkType: "repo"
   }
 ];
 
@@ -86,7 +73,7 @@ export const SKILLS: SkillCategory[] = [
   },
   {
     category: "Frontend Ecosystems",
-    skills: ["React (Hooks, Context)", "Vue 3 (Composition API)", "Next.js & Nuxt.js", "TypeScript (Advanced)", "React Query / Pinia"]
+    skills: ["React (Hooks, Context)", "Vue 3 (Composition API)", "Next.js & Nuxt.js", "TypeScript (Advanced)", "React Query / Pinia", "Node.js", "GraphQL"]
   },
   {
     category: "Project Leadership",
@@ -99,6 +86,10 @@ export const SKILLS: SkillCategory[] = [
   {
     category: "Performance & Build",
     skills: ["Vite / Webpack", "CI/CD Pipelines", "LCP/CLS Optimization", "Server-Side Rendering (SSR)", "Lazy Loading Strategies"]
+  },
+  {
+    category: "Languages",
+    skills: ["English (Professional)", "Italian (Basic)", "Hindi (Native)", "Gujarati (Native)"]
   }
 ];
 
@@ -122,16 +113,16 @@ export const EXPERIENCE: Job[] = [
   },
   {
     id: "simform-datahash",
-    role: "Lead Frontend Engineer",
+    role: "Sr. Software Engineer",
     company: "Simform Solutions",
     period: "Oct 2022 – Jan 2025",
     location: "Remote",
-    description: "Led frontend development for DATAHASH, driving technical decisions and mentoring team on Vue 3 best practices.",
-    technologies: ["Vue 3", "TypeScript", "Pinia", "Tailwind"],
+    description: "Led frontend development for DATAHASH, driving technical decisions and mentoring team on React best practices.",
+    technologies: ["React", "TypeScript", "React Query", "Tailwind"],
     highlights: [
       "Led 'Build vs Buy' analysis resulting in custom schema-based form system (150+ connectors).",
       "Designed Plugin Architecture enabling rapid third-party integration development.",
-      "Mentored junior developers on Composition API, state management, and testing practices."
+      "Mentored junior developers on React Hooks, state management, and testing practices."
     ]
   },
   {

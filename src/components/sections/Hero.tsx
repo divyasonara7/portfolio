@@ -51,15 +51,15 @@ const Hero: React.FC = () => {
                     Senior Frontend Engineer
                 </h2>
                 <p className="max-w-2xl text-lg text-slate-400 leading-relaxed">
-                    {yearsOfExperience} years building scalable <strong className="text-white">React & Vue</strong> applications
-                    with expertise in <strong className="text-white">Config-Driven UI</strong>, state machine modeling,
-                    and enterprise-grade frontend architecture.
+                    {yearsOfExperience} years architecting enterprise-grade <strong className="text-white">React & Vue</strong> platforms.
+                    I specialize in scalable <strong className="text-white">System Design</strong>, Config-Driven patterns,
+                    and delivering high-quality software solutions for complex business domains.
                     Currently based in <span className="text-white">{LOCATION}</span>.
                 </p>
 
                 {/* Tech Stack Pills */}
                 <div className="flex flex-wrap gap-2 pt-2">
-                    {['React', 'Vue 3', 'TypeScript', 'System Design', 'Config-Driven UI', 'State Machines'].map((tech) => (
+                    {['React', 'Vue 3', 'TypeScript', 'Node.js', 'GraphQL', 'System Design'].map((tech) => (
                         <span
                             key={tech}
                             className="px-3 py-1 bg-slate-800/60 text-slate-300 text-sm rounded-full border border-slate-700/50"
@@ -119,7 +119,7 @@ const Hero: React.FC = () => {
                 </div>
                 <div>
                     <span className="block text-3xl font-bold text-white">React & Vue</span>
-                    <span className="text-sm text-slate-500">Dual Expertise</span>
+                    <span className="text-sm text-slate-500">Cross-Framework Fluency</span>
                 </div>
             </div>
         </section>

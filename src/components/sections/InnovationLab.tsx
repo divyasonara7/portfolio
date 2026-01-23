@@ -24,13 +24,13 @@ const iconMap = {
 };
 
 /**
- * Innovation Lab Section - Showcases workshops, talks, and AI/automation innovations
+ * Developer Productivity Lab - Showcases workshops, talks, and AI/automation experiments
  * Features interactive cards with slides downloads and impact metrics
  */
 const InnovationLab: React.FC = () => {
     return (
         <section id="innovation" className="py-20 px-6 sm:px-12 max-w-7xl mx-auto">
-            <SectionHeader number="03" title="Innovation Lab" className="mb-4" />
+            <SectionHeader number="03" title="Developer Productivity Lab" className="mb-4" />
             <p className="text-slate-400 mb-12 max-w-3xl">
                 Beyond shipping features, I actively contribute to team growth through workshops,
                 explore cutting-edge AI workflows, and build automation tools that multiply productivity.
@@ -97,7 +97,10 @@ const InnovationLab: React.FC = () => {
                                 <h4 className="text-lg font-bold text-white mb-2 group-hover:text-blue-100">
                                     {session.title}
                                 </h4>
-                                <p className="text-slate-400 text-sm mb-4 line-clamp-2">
+                                <p
+                                    className="text-slate-400 text-sm mb-4 line-clamp-2 cursor-help"
+                                    title={session.description}
+                                >
                                     {session.description}
                                 </p>
 
@@ -124,11 +127,11 @@ const InnovationLab: React.FC = () => {
                 </div>
             </div>
 
-            {/* AI & Automation Innovations */}
+            {/* AI-Powered Workflow Experiments */}
             <div>
                 <h3 className="text-xl font-semibold text-white mb-6 flex items-center gap-2">
                     <Bot size={20} className="text-purple-500" />
-                    AI & Automation Innovations
+                    AI-Powered Workflow Experiments
                 </h3>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                     {INNOVATIONS.map((innovation) => {
@@ -154,7 +157,10 @@ const InnovationLab: React.FC = () => {
                                 </div>
 
                                 <h4 className="text-lg font-bold text-white mb-2">{innovation.title}</h4>
-                                <p className="text-slate-400 text-sm mb-4 line-clamp-3">
+                                <p
+                                    className="text-slate-400 text-sm mb-4 line-clamp-3 cursor-help"
+                                    title={innovation.description}
+                                >
                                     {innovation.description}
                                 </p>
 
