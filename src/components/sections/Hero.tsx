@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
                     Divya Sonara
                 </h1>
                 <h2 className="text-2xl md:text-4xl font-light text-slate-400">
-                    Senior Frontend Engineer &amp; <span className="text-blue-400 font-normal">System Design</span> Expert
+                    Senior Frontend Engineer
                 </h2>
                 <p className="max-w-2xl text-lg text-slate-400 leading-relaxed">
                     {yearsOfExperience} years building scalable <strong className="text-white">React & Vue</strong> applications

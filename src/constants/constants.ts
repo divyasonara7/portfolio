@@ -6,7 +6,7 @@ export const CV_PATH = "/DIVYA_SONARA_CV.pdf";
 export const GITHUB = "https://github.com/divyasonara7";
 export const LOCATION = "Milan, Italy";
 
-export const RESUME_SUMMARY = `Senior Frontend Architect & System Design Expert with 4+ years of experience building scalable applications across both React and Vue ecosystems. I specialize in configuration-driven UI, complex state management, and 'Build vs Buy' architectural strategy. I leverage advanced CodeGen AI workflows to accelerate development cycles and ensure high-quality, maintainable code standards.`;
+export const RESUME_SUMMARY = `Senior Frontend Architect with 4+ years architecting scalable applications across both React and Vue ecosystems. I specialize in configuration-driven UI, complex state management, and 'Build vs Buy' architectural strategy. I leverage advanced CodeGen AI workflows to accelerate development cycles and ensure high-quality, maintainable code standards.`;
 
 export const PROJECTS: Project[] = [
   {

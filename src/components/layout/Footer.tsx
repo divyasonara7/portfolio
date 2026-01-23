@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
 
                 {/* Copyright */}
                 <p className="text-center text-slate-600 text-xs">
-                    © {currentYear} Divya Sonara • Senior Frontend Engineer & System Design Expert
+                    © {currentYear} Divya Sonara • Senior Frontend Engineer
                 </p>
             </div>
         </footer>
