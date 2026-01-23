@@ -6,12 +6,12 @@ export const CV_PATH = "/DIVYA_SONARA_CV.pdf";
 export const GITHUB = "https://github.com/divyasonara7";
 export const LOCATION = "Milan, Italy";
 
-export const RESUME_SUMMARY = `Senior Frontend Architect with 4+ years architecting scalable applications across both React and Vue ecosystems. I specialize in configuration-driven UI, complex state management, and 'Build vs Buy' architectural strategy. I leverage advanced CodeGen AI workflows to accelerate development cycles and ensure high-quality, maintainable code standards.`;
+export const RESUME_SUMMARY = `Senior Frontend Engineer with 4+ years engineering scalable applications across both React and Vue ecosystems. I specialize in configuration-driven UI, complex state management, and 'Build vs Buy' architectural strategy. I leverage advanced CodeGen AI workflows to accelerate development cycles and ensure high-quality, maintainable code standards.`;
 
 export const PROJECTS: Project[] = [
   {
     title: "CENTX Survey Platform",
-    role: "Lead Frontend Architect",
+    role: "Sr. Software Engineer",
     description: "Enterprise survey platform handling 100K+ concurrent respondents. Built scalable survey builder with drag-drop interface, skip logic branching, and real-time response analytics similar to SurveyMonkey architecture.",
     tech: ["React", "React Query", "TypeScript", "Vite", "Tailwind"],
     features: [
