@@ -102,7 +102,7 @@ export const EXPERIENCE: Job[] = [
     role: "Sr. Software Engineer",
     company: "Simform Solutions",
     period: "Jan 2025 – Present",
-    location: "Remote",
+    location: "Hybrid - Ahmedabad, India",
     description: "Leading frontend architecture for CENTX, applying System Design principles to build a scalable, high-performance survey platform.",
     technologies: ["React", "React Query", "TypeScript", "Vite"],
     highlights: [
@@ -116,7 +116,7 @@ export const EXPERIENCE: Job[] = [
     role: "Software Engineer",
     company: "Simform Solutions",
     period: "Oct 2022 – Jan 2025",
-    location: "Remote",
+    location: "Hybrid - Ahmedabad, India",
     description: "Led frontend development for DATAHASH, driving technical decisions and mentoring team on React best practices.",
     technologies: ["React", "TypeScript", "React Query", "Tailwind"],
     highlights: [
@@ -143,7 +143,7 @@ export const EXPERIENCE: Job[] = [
     role: "Software Engineering Intern",
     company: "Improwised Technologies",
     period: "Jan 2021 – June 2021",
-    location: "Rajkot, India",
+    location: "Onsite - Rajkot, India",
     description: "Kickstarted career with hands-on experience in Go backend development and frontend fundamentals, contributing to production applications.",
     technologies: ["Go", "Vue.js", "JavaScript", "REST APIs"],
     highlights: [
