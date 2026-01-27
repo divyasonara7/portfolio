@@ -6,29 +6,29 @@ export const CV_PATH = "/DIVYA_SONARA_CV.pdf";
 export const GITHUB = "https://github.com/divyasonara7";
 export const LOCATION = "Milan, Italy";
 
-export const RESUME_SUMMARY = `Senior Frontend Engineer with 4+ years engineering scalable applications across both React and Vue ecosystems. I specialize in configuration-driven UI, complex state management, and 'Build vs Buy' architectural strategy. I leverage advanced CodeGen AI workflows to accelerate development cycles and ensure high-quality, maintainable code standards.`;
+export const RESUME_SUMMARY = `Senior Frontend Engineer with 4+ years engineering scalable applications across both React and Vue ecosystems. I specialize in System Design, complex state management, and 'Build vs Buy' architectural strategy. I leverage advanced AI-assisted development workflows to accelerate delivery cycles and ensure high-quality, maintainable code standards.`;
 
 export const PROJECTS: Project[] = [
   {
     title: "CENTX Survey Platform",
     role: "Sr. Software Engineer",
-    description: "Enterprise survey platform handling 100K+ concurrent respondents. Built scalable survey builder with drag-drop interface, skip logic branching, and real-time response analytics similar to SurveyMonkey architecture.",
+    description: "Enterprise survey platform handling 100K+ concurrent respondents. Built scalable survey builder with drag-drop interface, skip logic branching, and real-time response analytics leveraging AI-assisted development.",
     tech: ["React", "React Query", "TypeScript", "Vite", "Tailwind"],
     features: [
-      "Architecture: Compound Component pattern for survey builder with drag-drop reordering",
-      "Logic Engine: Skip logic & branching with visual flow editor for conditional paths",
-      "Performance: 40% faster LCP through code-splitting, lazy loading & virtualized lists"
+      "AI Development: Leveraged AI workflows for rapid feature development and code optimization",
+      "Logic Engine: Skip logic & branching with visual flow editor for conditional survey paths",
+      "Performance: 40% faster LCP through intelligent code-splitting, lazy loading & virtualized lists"
     ]
   },
   {
     title: "DATAHASH",
     role: "Sr. Software Engineer",
-    description: "Privacy-First Data Activation Platform with 150+ OAuth connectors. Led 'Build vs Buy' analysis resulting in custom schema-based form system. Applied Component Abstraction and Dependency Injection patterns.",
+    description: "Privacy-First Data Activation Platform with 150+ OAuth connectors. Led 'Build vs Buy' analysis resulting in custom Config-Driven form system with schema-based architecture.",
     tech: ["React", "TypeScript", "React Query", "Tailwind"],
     features: [
-      "System Design: Schema-driven form generator with Plugin Architecture",
-      "Architecture: Reusable component library with Compound Component pattern",
-      "Integration: Loosely-coupled connector system with Adapter Pattern"
+      "Config-Driven UI: Schema-driven form generator with Factory Pattern and Plugin Architecture",
+      "System Design: JSON-based configuration enabling non-engineers to build forms safely",
+      "Integration: Loosely-coupled connector system with Adapter Pattern for 150+ integrations"
     ]
   },
   {
@@ -103,12 +103,12 @@ export const EXPERIENCE: Job[] = [
     company: "Simform Solutions",
     period: "Jan 2025 – Present",
     location: "Hybrid - Ahmedabad, India",
-    description: "Leading frontend architecture for CENTX, applying System Design principles to build a scalable, high-performance survey platform.",
+    description: "Leading frontend architecture for CENTX, a scalable enterprise survey platform handling 100K+ concurrent respondents.",
     technologies: ["React", "React Query", "TypeScript", "Vite"],
     highlights: [
-      "Architected a Config-Driven UI system with Factory Pattern for dynamic form generation.",
-      "Applied Container-Presenter separation and State Machine modeling for complex survey flows.",
-      "Optimized performance using code-splitting, lazy loading, and memoization strategies."
+      "Architected enterprise survey builder with drag-drop interface, skip logic branching, and real-time analytics for 100K+ concurrent users.",
+      "Leveraged AI-assisted development and problem-solving to accelerate feature delivery and optimize code quality with intelligent refactoring.",
+      "Achieved 40% faster LCP through performance optimization strategies including code-splitting, lazy loading, and virtualized lists."
     ]
   },
   {
@@ -117,12 +117,12 @@ export const EXPERIENCE: Job[] = [
     company: "Simform Solutions",
     period: "Oct 2022 – Jan 2025",
     location: "Hybrid - Ahmedabad, India",
-    description: "Led frontend development for DATAHASH, driving technical decisions and mentoring team on React best practices.",
+    description: "Led frontend development for DATAHASH, a Privacy-First Data Activation Platform with 150+ OAuth connectors.",
     technologies: ["React", "TypeScript", "React Query", "Tailwind"],
     highlights: [
-      "Led 'Build vs Buy' analysis resulting in custom schema-based form system (150+ connectors).",
-      "Designed Plugin Architecture enabling rapid third-party integration development.",
-      "Mentored junior developers on React Hooks, state management, and testing practices."
+      "Led 'Build vs Buy' analysis and architected Config-Driven form system using JSON schemas for 150+ OAuth connectors with cross-field dependencies.",
+      "Designed Plugin Architecture with Factory Pattern and Dependency Injection, enabling non-engineers to build complex forms via configuration.",
+      "Saved 75% development time after 50+ forms; mentored junior developers on React best practices and architectural patterns."
     ]
   },
   {
@@ -130,12 +130,13 @@ export const EXPERIENCE: Job[] = [
     role: "Software Engineer",
     company: "Improwised Technologies",
     period: "July 2021 – Oct 2022",
-    location: "Rajkot, India",
-    description: "Built real-time financial dashboards and SEO tools with focus on performance optimization and offline-first architecture.",
-    technologies: ["Vue.js", "Quasar", "Go", "PostgreSQL"],
+    location: "Onsite - Rajkot, India",
+    description: "Developed high-performance trading platform and SEO auditing tool with real-time data visualization and offline-first architecture.",
+    technologies: ["Vue.js", "Quasar", "Go", "PostgreSQL", "D3.js", "WebSocket"],
     highlights: [
-      "Built high-frequency data visualizations with Virtual DOM optimization.",
-      "Engineered Web Worker architecture for CPU-intensive client-side processing."
+      "Built TraderSync analytics platform maintaining 60fps real-time data visualization using Virtual DOM optimization and custom D3.js charting.",
+      "Engineered SEO Auditor tool with Web Worker architecture for CPU-intensive client-side crawling and IndexedDB caching for offline-first functionality.",
+      "Implemented force-directed graph visualization for site structure mapping and exponential backoff WebSocket reconnection strategy."
     ]
   },
   {
@@ -144,12 +145,12 @@ export const EXPERIENCE: Job[] = [
     company: "Improwised Technologies",
     period: "Jan 2021 – June 2021",
     location: "Onsite - Rajkot, India",
-    description: "Kickstarted career with hands-on experience in Go backend development and frontend fundamentals, contributing to production applications.",
+    description: "Gained hands-on experience in full-stack development, contributing to production applications with Go backend and Vue.js frontend.",
     technologies: ["Go", "Vue.js", "JavaScript", "REST APIs"],
     highlights: [
-      "Developed REST API endpoints using Go for internal tooling applications.",
-      "Built responsive frontend components with Vue.js and JavaScript.",
-      "Collaborated on code reviews and agile sprint planning."
+      "Developed REST API endpoints using Go with RESTful architecture for internal tooling applications.",
+      "Built responsive frontend components with Vue.js and JavaScript, shipping production-ready features.",
+      "Collaborated in agile sprints with code reviews, technical documentation, and sprint planning."
     ]
   }
 ];

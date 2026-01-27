@@ -52,7 +52,7 @@ const Hero: React.FC = () => {
                 </h2>
                 <p className="max-w-2xl text-lg text-slate-400 leading-relaxed">
                     {yearsOfExperience} years engineering enterprise-grade <strong className="text-white">React & Vue</strong> platforms.
-                    I specialize in scalable <strong className="text-white">System Design</strong>, Config-Driven patterns,
+                    I specialize in scalable <strong className="text-white">System Design</strong>, AI-assisted development,
                     and delivering high-quality software solutions for complex business domains.
                     Currently based in <span className="text-white">{LOCATION}</span>.
                 </p>
