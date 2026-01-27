@@ -113,7 +113,7 @@ export const EXPERIENCE: Job[] = [
   },
   {
     id: "simform-datahash",
-    role: "Sr. Software Engineer",
+    role: "Software Engineer",
     company: "Simform Solutions",
     period: "Oct 2022 – Jan 2025",
     location: "Remote",
