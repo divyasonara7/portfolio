@@ -102,7 +102,7 @@ export const EXPERIENCE: Job[] = [
     role: "Sr. Software Engineer",
     company: "Simform Solutions",
     period: "Jan 2025 – Present",
-    location: "Hybrid - Ahmedabad, India",
+    location: "Remote",
     description: "Leading frontend architecture for CENTX, a scalable enterprise survey platform handling 100K+ concurrent respondents.",
     technologies: ["React", "React Query", "TypeScript", "Vite"],
     highlights: [
